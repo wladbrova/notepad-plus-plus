@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="Windows-1251" ?>
+<NotepadPlus>
+	<Native-Langue name="Українська" filename="ukrainian.xml" >
+		<Menu>
+			<Main>
+                <!-- Main Menu Entries -->
+                <Entries>
+					<Item menuId="file" name="&amp;Файл"/>
+					<Item menuId="edit" name="&amp;Редакція"/>
+					<Item menuId="search" name="&amp;Пошук"/>
+					<Item menuId="view" name="&amp;Вигляд"/>
+					<Item menuId="encoding" name="&amp;Кодування"/>
+					<Item menuId="language" name="Під&amp;свічування"/>
+					<Item menuId="settings" name="&amp;Опції"/>
+					<Item menuId="macro" name="Макроси"/>
+					<Item menuId="run" name="Запустити"/>
+					<Item idName="Plugins" name="Доповнення"/>
+					<Item idName="Window" name="Вікно"/>
+                </Entries>
+                <!-- Sub Menu Entries -->
+                <SubEntries>
+                    <Item subMenuId="file-openFolder" name="Відкрити теку документу"/>
+                    <Item subMenuId="file-closeMore" name="Управління вкладками..."/>
+                    <Item subMenuId="file-recentFiles" name="Останні файли"/>
+                    <Item subMenuId="edit-copyToClipboard"  name="Копіювати в Буфер..."/>
+                    <Item subMenuId="edit-indent" name="Відступи (табуляція)"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Перетворити Регістр"/>
+                    <Item subMenuId="edit-lineOperations" name="Рядка"/>
+                    <Item subMenuId="edit-comment" name="Коментарі"/>
+                    <Item subMenuId="edit-autoCompletion" name="Автозавершення Введення"/>
+                    <Item subMenuId="edit-eolConversion" name="Формат Конца Строк"/>
+                    <Item subMenuId="edit-blankOperations" name="Пропуски"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Спеціальна Вставка"/>
+                    <Item subMenuId="search-markAll" name="Помітити виділене"/>
+                    <Item subMenuId="search-unmarkAll" name="Прибрати Позначки"/>
+                    <Item subMenuId="search-jumpUp" name="Перейти вгору"/>
+                    <Item subMenuId="search-jumpDown" name="Перейти вниз"/>
+                    <Item subMenuId="search-bookmark" name="Закладки"/>
+                    <Item subMenuId="view-showSymbol"  name="Відображення символів"/>
+                    <Item subMenuId="view-zoom"  name="Масштаб"/>
+                    <Item subMenuId="view-moveCloneDocument"  name="Операції з документом"/>
+                    <Item subMenuId="view-tab"  name="Вибір Вкладки..."/>
+                    <Item subMenuId="view-collapseLevel" name="Згорнути рівень"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Розвернути рівень"/>
+                    <Item subMenuId="view-project" name="Проект"/>
+                    <Item subMenuId="encoding-characterSets"  name="Кодування"/>
+                    <Item subMenuId="encoding-arabic"  name="Арабський"/>
+                    <Item subMenuId="encoding-baltic"  name="Балтійський"/>
+                    <Item subMenuId="encoding-celtic"  name="Кельтський"/>
+                    <Item subMenuId="encoding-cyrillic"  name="Кирилиця"/>
+                    <Item subMenuId="encoding-centralEuropean"  name="Центрально-європейський"/>
+                    <Item subMenuId="encoding-chinese"  name="Китайський"/>
+                    <Item subMenuId="encoding-easternEuropean"  name="Східно-європейський"/>
+                    <Item subMenuId="encoding-greek"  name="Грецький"/>
+                    <Item subMenuId="encoding-hebrew"  name="Іврит"/>
+                    <Item subMenuId="encoding-japanese"  name="Японський"/>
+                    <Item subMenuId="encoding-korean" name="Корейський"/>
+                    <Item subMenuId="encoding-northEuropean" name="Північно-європейський"/>
+                    <Item subMenuId="encoding-thai" name="Тайський"/>
+                    <Item subMenuId="encoding-turkish" name="Турецький"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Западно-европейский"/>
+                    <Item subMenuId="encoding-vietnamese" name="В'єтнамський"/>
+                    <Item subMenuId="settings-import"  name="Імпортувати"/>
+                </SubEntries>
+
+                <!-- all menu item -->
+                <Commands>
+                    <Item id="1001"   name="Роздрукувати"/>
+                    <Item id="41001" name="&amp;Новий"/>
+                    <Item id="41002" name="&amp;Відкрити"/>
+                    <Item id="41019" name="Відкрити теку документу"/>
+                    <Item id="41003" name="Закрити"/>
+                    <Item id="41004" name="Закрити усе"/>
+                    <Item id="41005" name="Закрити усе, окрім активної"/>
+                    <Item id="41006" name="Зберегти"/>
+                    <Item id="41007" name="Зберегти усе"/>
+                    <Item id="41008" name="Зберегти як..."/>
+                    <Item id="41010" name="Друк..."/>
+                    <Item id="41011" name="Вихід"/>
+                    <Item id="41012" name="Завантажити сесію..."/>
+                    <Item id="41013" name="Зберегти сесію..."/>
+                    <Item id="41014" name="Перезавантажити з диска"/>
+                    <Item id="41015" name="Зберегти копію як..."/>
+                    <Item id="41016" name="Видалити файл (у кошик)"/>
+                    <Item id="41017" name="Перейменувати..."/>
+                    <Item id="41020" name="Відкрити в консолі cmd"/>
+                    <Item id="41009" name="Закрити усе Ліворуч"/>
+                    <Item id="41018" name="Закрити усе Справа"/>
+                    <Item id="42001" name="Вирізувати"/>
+                    <Item id="42002" name="Копіювати"/>
+                    <Item id="42003" name="Відміна"/>
+                    <Item id="42004" name="Повтор"/>
+                    <Item id="42005" name="Вставити"/>
+                    <Item id="42006" name="Видалити"/>
+                    <Item id="42007" name="Виділити усе"/>
+                    <Item id="42008" name="Вставити Табуляцію"/>
+                    <Item id="42009" name="Видалити Табуляцію"/>
+                    <Item id="42010" name="Дублювати поточний рядок"/>
+                    <Item id="42012" name="Розбити рядки"/>
+                    <Item id="42013" name="Об'єднати рядки"/>
+                    <Item id="42014" name="Перемістити рядок Вгору"/>
+                    <Item id="42015" name="Перемістити рядок Вниз"/>
+                    <Item id="42016" name="ПРОПИСНІ"/>
+                    <Item id="42017" name="рядкові"/>
+                    <Item id="42018" name="Початок запису"/>
+                    <Item id="42019" name="Зупинка запису"/>
+                    <Item id="42020" name="Задати виділення (почало/кінець)"/>
+                    <Item id="42021" name="Прокрутити запис"/>
+                    <Item id="42022" name="Вкл /Выкл. Коментар рядка"/>
+                    <Item id="42023" name="Закоментувати виділене"/>
+                    <Item id="42024" name="Прибрати Замикаючі Пропуски"/>
+                    <Item id="42025" name="Зберегти запис в макрос..."/>
+                    <Item id="42026" name="Текст справа наліво"/>
+                    <Item id="42027" name="Текст зліва направо"/>
+                    <Item id="42028" name="Тільки читання"/>
+                    <Item id="42029" name="Шлях і Ім'я файлу в буфер"/>
+                    <Item id="42030" name="Ім'я файлу в буфер"/>
+                    <Item id="42031" name="Шлях до файлу в буфер"/>
+                    <Item id="42032" name="Багатократний запуск..."/>
+                    <Item id="42033" name="Зняти атрибут &quot;Тільки читання&quot;"/>
+                    <Item id="42034" name="Генератор стовпця..."/>
+                    <Item id="42035" name="Закоментувати рядок"/>
+                    <Item id="42036" name="Раскомментировать рядок"/>
+                    <Item id="42037" name="Виділення Стовпцем..."/>
+                    <Item id="42038" name="Вставити як HTML"/>
+                    <Item id="42039" name="Вставити як RTF"/>
+                    <Item id="42040" name="Відкрити усі недавні файли"/>
+                    <Item id="42041" name="Очистити список недавніх файлів"/>
+                    <Item id="42042" name="Прибрати Початкові Пропуски"/>
+                    <Item id="42043" name="Прибрати Початкові і Замикаючі Пропуски"/>
+                    <Item id="42044" name="Символ Конца Строки в Пропуск"/>
+                    <Item id="42045" name="Прибрати зайві Пропуски а Кінці Рядків в Пропуск"/>
+                    <Item id="42046" name="Табуляцію в Пропуск"/>
+                    <Item id="42047" name="Раскомментировать виділене"/>
+                    <Item id="42048" name="Копіювати як Двійковий код"/>
+                    <Item id="42049" name="Вирізувати як Двійковий код"/>
+                    <Item id="42050" name="Вставити як Двійковий код"/>
+                    <Item id="42051" name="Таблиця символів"/>
+                    <Item id="42052" name="Панель історії буфера обміну"/>
+                    <Item id="42053" name="Пропуск в Табуляцію (на початку рядка)"/>
+                    <Item id="42054" name="Пропуск в Табуляцію (усе)"/>
+                    <Item id="42055" name="Видалити Порожні Рядки"/>
+                    <Item id="42056" name="Видалити Порожні Рядки (Содер. символи Пропуск)"/>
+					<Item id="42057" name="Вставити порожній рядок Перед Поточним"/>
+					<Item id="42058" name="Вставити порожній рядок Після Поточного"/>
+					<Item id="42059" name="Сортування Рядка в порядку Зростання"/>
+					<Item id="42060" name="Сортування Рядка у в порядку Убування"/>
+                    <Item id="43001" name="Знайти..."/>
+                    <Item id="43002" name="Шукати далі"/>
+                    <Item id="43003" name="Заміна..."/>
+                    <Item id="43004" name="Перейти до..."/>
+                    <Item id="43005" name="Закладка (поставити /зняти)"/>
+                    <Item id="43006" name="До наступної Закладки"/>
+                    <Item id="43007" name="До попередньої Закладки"/>
+                    <Item id="43008" name="Прибрати усі Закладки"/>
+                    <Item id="43009" name="Перейти до парної скобки"/>
+                    <Item id="43010" name="Шукати раніше"/>
+                    <Item id="43011" name="Пошук у міру &amp;набору..."/>
+                    <Item id="43013" name="Знайти у файлах"/>
+                    <Item id="43014" name="Шукати виділене далі з Регістром"/>
+                    <Item id="43015" name="Шукати виділене раніше з Регістром"/>
+                    <Item id="43016" name="Виділити усе"/>
+                    <Item id="43017" name="Зняти усі виділення"/>
+                    <Item id="43018" name="Вирізувати усі рядки із закладкою"/>
+                    <Item id="43019" name="Копіювати усі рядки із закладкою"/>
+                    <Item id="43020" name="Вставити (із заміною) в рядки із закладкою"/>
+                    <Item id="43021" name="Видалити усі рядки Із Закладкою"/>
+                    <Item id="43022" name="Використовуючи 1-й стиль"/>
+                    <Item id="43023" name="Прибрати 1-й стиль"/>
+                    <Item id="43024" name="Використовуючи 2-й стиль"/>
+                    <Item id="43025" name="Прибрати 2-й стиль"/>
+                    <Item id="43026" name="Використовуючи 3-й стиль"/>
+                    <Item id="43027" name="Прибрати 3-й стиль"/>
+                    <Item id="43028" name="Використовуючи 4-й стиль"/>
+                    <Item id="43029" name="Прибрати 4-й стиль"/>
+                    <Item id="43030" name="Використовуючи 5-й стиль"/>
+                    <Item id="43031" name="Прибрати 5-й стиль"/>
+                    <Item id="43032" name="Прибрати усі стилі"/>
+                    <Item id="43033" name="1-й стиль"/>
+                    <Item id="43034" name="2-й стиль"/>
+                    <Item id="43035" name="3-й стиль"/>
+                    <Item id="43036" name="4-й стиль"/>
+                    <Item id="43037" name="5-й стиль"/>
+                    <Item id="43038" name="Знайти стиль"/>
+                    <Item id="43039" name="1-й стиль"/>
+                    <Item id="43040" name="2-й стиль"/>
+                    <Item id="43041" name="3-й стиль"/>
+                    <Item id="43042" name="4-й стиль"/>
+                    <Item id="43043" name="5-й стиль"/>
+                    <Item id="43044" name="Знайти стиль"/>
+                    <Item id="43045" name="Вікно результату пошуку"/>
+                    <Item id="43046" name="Наступний результат пошуку"/>
+                    <Item id="43047" name="Попередній результат пошуку"/>
+                    <Item id="43048" name="Шукати виділене далі"/>
+                    <Item id="43049" name="Шукати виділене раніше"/>
+                    <Item id="43050" name="Інвертувати закладки (усі рядки)"/>
+                    <Item id="43051" name="Видалити усі рядки Без Закладки"/>
+                    <Item id="43052" name="Знайти символи в діапазоні..."/>
+					<Item id="43053" name="Виділити усе між Парних Дужок"/>
+					<Item id="43054" name="Позначки..."/>
+                    <Item id="44009" name="Тільки текст (у усе вікно)"/>
+                    <Item id="44010" name="Згорнути усі блоки"/>
+                    <Item id="44012" name="Заховати Нумерацію Рядків"/>
+                    <Item id="44013" name="Заховати поле Закладок"/>
+                    <Item id="44014" name="Заховати поле Меж Блоків"/>
+                    <Item id="44019" name="Відображати усі символи"/>
+                    <Item id="44020" name="Відображати Відступи"/>
+                    <Item id="44022" name="Перенесення рядків"/>
+                    <Item id="44023" name="Більше    (Ctrl+Кол. Вгору)"/>
+                    <Item id="44024" name="Дрібніше    (Ctrl+Кол. Вниз)"/>
+                    <Item id="44025" name="Відображати Пропуски і Табуляції"/>
+                    <Item id="44026" name="Відображати символ Конеца Рядка"/>
+                    <Item id="44029" name="Розвернути усі блоки"/>
+                    <Item id="44030" name="Згорнути поточний блок"/>
+                    <Item id="44031" name="Розвернути поточний блок"/>
+                    <Item id="44032" name="Текст у весь Екран"/>
+                    <Item id="44033" name="Відновити масштаб..."/>
+                    <Item id="44034" name="Поверх усіх вікон"/>
+                    <Item id="44035" name="Синхрониз. вертикальну прокрутку"/>
+                    <Item id="44036" name="Синхрониз. горизонтальну прокрутку"/>
+                    <Item id="44041" name="Відображати знак Перенесення Рядків"/>
+                    <Item id="44042" name="Заховати вибрані рядки"/>
+                    <Item id="44049" name="Інформація про файл..."/>
+                    <Item id="44072" name="Перемкнутися на Іншу Область"/>
+                    <Item id="44080" name="Карта Документу"/>
+                    <Item id="44081" name="Панель проекта 1"/>
+                    <Item id="44082" name="Панель проекта 2"/>
+                    <Item id="44083" name="Панель проекта 3"/>
+                    <Item id="44084" name="Список Функцій"/>
+					
+					<Item id="44086" name="1-а  Вкладка"/>
+					<Item id="44087" name="2-а  Вкладка"/>
+					<Item id="44088" name="3-а  Вкладка"/>
+					<Item id="44089" name="4-а  Вкладка "/>
+					<Item id="44090" name="5-а  Вкладка"/>
+					<Item id="44091" name="6-а  Вкладка"/>
+					<Item id="44092" name="7-а  Вкладка"/>
+					<Item id="44093" name="8-а  Вкладка"/>
+					<Item id="44094" name="9-а  Вкладка"/>
+					<Item id="44095" name="Наступна Вкладка"/>
+					<Item id="44096" name="Попередня Вкладка"/>
+					
+					
+                    <Item id="45001" name="Перетворити в Win -формат (CRLF)"/>
+                    <Item id="45002" name="Перетворити в UNIX -формат (LF)"/>
+                    <Item id="45003" name="Перетворити в MAC -формат (CR)"/>
+                    <Item id="45004" name="Кодувати в ANSI"/>
+                    <Item id="45005" name="Кодувати в UTF - 8"/>
+                    <Item id="45006" name="Кодувати в UCS - 2 Big Endian"/>
+                    <Item id="45007" name="Кодувати в UCS - 2 Little Endian"/>
+                    <Item id="45008" name="Кодувати в UTF - 8 (без BOM)"/>
+                    <Item id="45009" name="Перетворити в ANSI"/>
+                    <Item id="45010" name="Перетворити в UTF - 8 без BOM"/>
+                    <Item id="45011" name="Перетворити в UTF - 8"/>
+                    <Item id="45012" name="Перетворити в UCS - 2 Big Endian"/>
+                    <Item id="45013" name="Перетворити в UCS - 2 Little Endian"/>
+                    <Item id="46001" name="Визначення стилів..."/>
+                    <Item id="46019" name="MS INI файл"/>
+                    <Item id="46015" name="MS - DOS стиль"/>
+                    <Item id="46016" name="Звичайний Текст"/>
+                    <Item id="46080" name="Свої налаштування"/>
+                    <Item id="46150" name="Задати свій синтаксис..."/>
+                    <Item id="47000" name="Про програму..."/>
+                    <Item id="47001" name="Домашня сторінка Notepad++"/>
+                    <Item id="47002" name="Сторінка проекта Notepad++"/>
+                    <Item id="47003" name="Інтернет документація"/>
+                    <Item id="47004" name="Форум"/>
+                    <Item id="47005" name="Ще плагины..."/>
+                    <Item id="47006" name="Відновити Notepad++"/>
+                    <Item id="47008" name="Довідка"/>
+                    <Item id="47009" name="Задати Проксі Оновлення..."/>
+					<Item id="47010" name="Параметри Командного Рядка"/>
+                    <Item id="48005" name="Імпортувати Плагін(и)"/>
+                    <Item id="48006" name="Імпортувати Тему(и)"/>
+                    <Item id="48009" name="Гарячі клавіші..."/>
+                    <Item id="48011" name="Налаштування..."/>
+                    <Item id="48016" name="Зрад. гір. клав/Видалити макро..."/>
+                    <Item id="48017" name="Зрад. гір. клав/Видалити команду..."/>
+                    <Item id="48018" name="Редакт. Контекстне Меню"/>
+                    <Item id="49000" name="Запуск..."/>
+                    <Item id="50000" name="Завершення функцій"/>
+                    <Item id="50001" name="Завершення слів"/>
+                    <Item id="50002" name="Підказка по функціях"/>
+					<Item id="50006" name="Завершення шляху"/>
+                    <Item id="10001" name="Перемістити в Іншу Область"/>
+                    <Item id="10002" name="Дублювати в Іншій Області"/>
+                    <Item id="10003" name="Перемістити в Новий Екземпляр"/>
+                    <Item id="10004" name="Відкрити в Новому Екземплярі"/>
+                </Commands>
+            </Main>
+            <Splitter>
+            </Splitter>
+            <TabBar>
+                    <Item CMID="0"   name="Закрити"/>
+                    <Item CMID="1"   name="Закрити усе, окрім цієї"/>
+                    <Item CMID="2"   name="Зберегти"/>
+                    <Item CMID="3"   name="Зберегти як..."/>
+                    <Item CMID="4"   name="Друк"/>
+                    <Item CMID="5"   name="Перемістити в Іншу Область"/>
+                    <Item CMID="6"   name="Дублювати в Іншій Області"/>
+                    <Item CMID="7"   name="Повний шлях до файлу в буфер"/>
+                    <Item CMID="8"   name="Ім'я файлу в буфер"/>
+                    <Item CMID="9"   name="Шлях до директорії файлу в буфер"/>
+                    <Item CMID="10" name="Перейменувати"/>
+                    <Item CMID="11" name="Видалити файл (у кошик)"/>
+                    <Item CMID="12" name="Тільки читання"/>
+                    <Item CMID="13" name="Зняти атрибут &quot;Тільки читання&quot;"/>
+                    <Item CMID="14" name="Перемістити в Новий Екземпляр"/>
+                    <Item CMID="15" name="Відкрити в Новому Екземплярі"/>
+                    <Item CMID="16" name="Перезавантажити з диска"/>
+					<Item CMID="17" name="Закрити Вкладки Ліворуч"/>
+					<Item CMID="18" name="Закрити Вкладки Справа"/>
+                    <Item CMID="19" name="Відкрити теку документу"/>
+                    <Item CMID="20" name="Відкрити теку документу в cmd"/>
+            </TabBar>
+        </Menu>
+
+        <Dialog>
+            <Find title = "" titleFind = "Знайти" titleReplace = "Замінити" titleFindInFiles = "Знайти у файлах" titleMark="Позначки">
+                <Item id="1"      name="Шукати далі"/>
+                <Item id="2"      name="Закрити"/>
+                <Item id="1603" name="Тільки &amp;цілі слова"/>
+                <Item id="1604" name="Враховувати регістр"/>
+                <Item id="1605" name="Регуляр. виражений" />
+                <Item id="1606" name="Зациклити пошук"/>
+                <Item id="1608" name="&amp;Замінити"/>
+                <Item id="1609" name="Замінити &amp;усе"/>
+                <Item id="1611" name="Замінити на:"/>
+                <Item id="1612" name="Вгору"/>
+                <Item id="1613" name="Вниз"/>
+                <Item id="1614" name="По&amp;дочитати"/>
+                <Item id="1615" name="Помітити усе"/>
+                <Item id="1616" name="Позначати Закладкою"/>
+                <Item id="1617" name="Позначати знайдене"/>
+                <Item id="1618" name="Прибирати попередні позначки"/>
+                <Item id="1620" name="Знайти:"/>
+                <Item id="1621" name="Напрям"/>
+                <Item id="1624" name="Режим пошуку"/>
+                <Item id="1625" name="Звичайний"/>
+                <Item id="1626" name="Рас&amp;ширенный (\n, \r, \t, \0, \x...)"/>
+                <Item id="1632" name="У виділеному"/>
+                <Item id="1633" name="Прибрати усі Позначки"/>
+                <Item id="1635" name="Замінити усе в усіх Відкритих Документах"/>
+                <Item id="1636" name="Знайти усе в усіх Відкритих Документах"/>
+                <Item id="1637" name="Шукати у файлах"/>
+                <Item id="1641" name="Знайти усе в&#x0A;Поточному Документі"/>
+                <Item id="1654" name="Фильтры:"/>
+                <Item id="1655" name="Папка:"/>
+                <Item id="1656" name="Знайти усе"/>
+                <Item id="1658" name="В усіх підтеках"/>
+                <Item id="1659" name="В прихованих теках"/>
+                <Item id="1660" name="За&amp;менить у файлах"/>
+                <Item id="1661" name="Слід. за поточним док" />
+                <Item id="1686" name="Прозорість"/>
+                <Item id="1687" name="Коли неактивний"/>
+                <Item id="1688" name="Завжди"/>
+                <Item id="1703" name="і &amp;нові рядки"/>
+            </Find>
+            <GoToLine title= "До рядка...">
+                <Item id="2007" name="Рядок"/>
+                <Item id="2008" name="Положення символу"/>
+                <Item id="1"    name="Вперед"/>
+                <Item id="2"    name="Відміна"/>
+                <Item id="2004" name="Зараз ви тут:"/>
+                <Item id="2005" name="Хочете пройти до:"/>
+                <Item id="2006" name="Максимальне значення :"/>
+            </GoToLine>
+			
+            <Run title = "Запуск...">
+                <Item id="1903" name="Введіть параметр запуску програми"/>
+                <Item id="1"    name="Запуск"/>
+                <Item id="2"    name="Відміна"/>
+                <Item id="1904" name="Зберегти..."/>
+            </Run>
+
+             <StyleConfig    title="Визначення стилів">
+                <Item id="2"      name="Відміна"/>
+                <Item id="2301" name="ОК"/>
+                <Item id="2303" name="Прозорість"/>
+                <Item id="2306" name="Вибрати стиль :"/>
+                <SubDialog>
+                    <Item id="2204" name="Напівжирний"/>
+                    <Item id="2205" name="Курсив"/>
+                    <Item id="2206" name="Колір тексту"/>
+                    <Item id="2207" name="Колір фону тексту"/>
+                    <Item id="2208" name="Шрифт:"/>
+                    <Item id="2209" name="Размір:"/>
+                    <Item id="2211" name="Стиль:"/>
+                    <Item id="2212" name="Стиль Кольору"/>
+                    <Item id="2213" name="Стиль Шрифту"/>
+                    <Item id="2214" name="Стандартне розшир. :"/>
+                    <Item id="2216" name="Користув. розширення :"/>
+                    <Item id="2218" name="Підкреслений"/>
+                    <Item id="2219" name="Стандартні ключові слова"/>
+                    <Item id="2221" name="Користувацькі"/>
+                    <Item id="2225" name="Мова:"/>
+                    <Item id="2226" name="Загальний колір тексту"/>
+                    <Item id="2227" name="Загальний колір фону тексту"/>
+                    <Item id="2228" name="Загальний шрифт"/>
+                    <Item id="2229" name="Загальний розмір шрифту"/>
+                    <Item id="2230" name="Загальна напівжирність шрифтів"/>
+                    <Item id="2231" name="Загальний курсив шрифтів"/>
+                    <Item id="2232" name="Загальне підкреслення шрифтів"/>
+                </SubDialog>
+            </StyleConfig>
+
+            <UserDefine title="Користувацьке визначення мови">
+                <Item id="20001" name="Стикувати"/>
+                <Item id="20002" name="Нове ім'я"/>
+                <Item id="20003" name="Створити..."/>
+                <Item id="20004" name="Видалити"/>
+                <Item id="20005" name="Зберегти як..."/>
+                <Item id="20007" name="Користув. мова: "/>
+                <Item id="20009" name="Розшир.:"/>
+                <Item id="20012" name="Будь-який регістр"/>
+                <Item id="20011" name="Прозорість"/>
+                <Item id="20015" name="Імпортув."/>
+                <Item id="20016" name="Експортув."/>
+                <StylerDialog title="Налаштування Стилістики">
+                    <Item id="1" name="ОК"/>
+                    <Item id="2" name="Відміна"/>
+                    <Item id="25030" name="Стиль шрифту:"/>
+                    <Item id="25006" name="Колір тексту"/>
+                    <Item id="25007" name="Колір фону тексту"/>
+                    <Item id="25031" name="Ім'я:"/>
+                    <Item id="25032" name="Розмір:"/>
+                    <Item id="25001" name="Напівжирний"/>
+                    <Item id="25002" name="Курсив"/>
+                    <Item id="25003" name="Підкреслений"/>
+                    <Item id="25029" name="Вкладення:"/>
+                    <Item id="25008" name="Роздільник 1"/>
+                    <Item id="25009" name="Роздільник 2"/>
+                    <Item id="25010" name="Роздільник 3"/>
+                    <Item id="25011" name="Роздільник 4"/>
+                    <Item id="25012" name="Роздільник 5"/>
+                    <Item id="25013" name="Роздільник 6"/>
+                    <Item id="25014" name="Роздільник 7"/>
+                    <Item id="25015" name="Роздільник 8"/>
+                    <Item id="25018" name="Ключове слово 1"/>
+                    <Item id="25019" name="Ключове слово 2"/>
+                    <Item id="25020" name="Ключове слово 3"/>
+                    <Item id="25021" name="Ключове слово 4"/>
+                    <Item id="25022" name="Ключове слово 5"/>
+                    <Item id="25023" name="Ключове слово 6"/>
+                    <Item id="25024" name="Ключове слово 7"/>
+                    <Item id="25025" name="Ключове слово 8"/>
+                    <Item id="25016" name="Коментар"/>
+                    <Item id="25017" name="Коментар рядка"/>
+                    <Item id="25026" name="Оператор 1"/>
+                    <Item id="25027" name="Оператор 2"/>
+                    <Item id="25028" name="Числа"/>
+                </StylerDialog>
+                <Folder title="Стандартний">
+                    <Item id="21101" name="Стиль по-умолчанию"/>
+                    <Item id="21102" name="Настроїти"/>
+                    <Item id="21104" name="Тимчасовий сайт документації: "/>
+                    <Item id="21105" name="Документация:"/>
+                    <Item id="21106" name="Компакт-диск. сверт. (порожні лінії теж)"/>
+                    <Item id="21427" name="Стиль"/>
+                    <Item id="21424" name="Открытие:"/>
+                    <Item id="21425" name="Середина: "/>
+                    <Item id="21426" name="Закриття: "/>
+                    <Item id="21227" name="Стиль"/>
+                    <Item id="21224" name="Відкриття: "/>
+                    <Item id="21225" name="Середина: "/>
+                    <Item id="21226" name="Закриття: "/>
+                    <Item id="21420" name="Згортання в коментарях: "/>
+                    <Item id="21220" name="Згортання в коді 1-го стилю : "/>
+                    <Item id="21320" name="Сверт. у коді 2-го стилю (треб. роздільник) :"/>
+                    <Item id="21327" name="Стиль"/>
+                    <Item id="21324" name="Відкриття: "/>
+                    <Item id="21325" name="Середина: "/>
+                    <Item id="21326" name="Закриття: "/>
+                </Folder>
+                <Keywords title="Ключові слова">
+                    <Item id="22101" name="1-а група"/>
+                    <Item id="22201" name="2-а група"/>
+                    <Item id="22301" name="3-а група"/>
+                    <Item id="22401" name="4-а група"/>
+                    <Item id="22451" name="5-а група"/>
+                    <Item id="22501" name="6-а група"/>
+                    <Item id="22551" name="7-а група"/>
+                    <Item id="22601" name="8-а група"/>
+                    <Item id="22122" name="Стиль"/>
+                    <Item id="22222" name="Стиль"/>
+                    <Item id="22322" name="Стиль"/>
+                    <Item id="22422" name="Стиль"/>
+                    <Item id="22472" name="Стиль"/>
+                    <Item id="22522" name="Стиль"/>
+                    <Item id="22572" name="Стиль"/>
+                    <Item id="22622" name="Стиль"/>
+                    <Item id="22121" name="Префікс режим"/>
+                    <Item id="22221" name="Префікс режим"/>
+                    <Item id="22321" name="Префікс режим"/>
+                    <Item id="22421" name="Префікс режим"/>
+                    <Item id="22471" name="Префікс режим"/>
+                    <Item id="22521" name="Префікс режим"/>
+                    <Item id="22571" name="Префікс режим"/>
+                    <Item id="22621" name="Префікс режим"/>
+                    <Item id="22113" name="Префікс режим"/>
+                    <Item id="22213" name="Префікс режим"/>
+                    <Item id="22313" name="Префікс режим"/>
+                    <Item id="22413" name="Префікс режим"/>
+                </Keywords>
+                <Comment title="Коментарі &amp;і Числа">
+                    <Item id="23003" name="Положення лінії коментарів"/>
+                    <Item id="23004" name="Дозволити де завгодно"/>
+                    <Item id="23005" name="Розмістити на початку рядка"/>
+                    <Item id="23006" name="Попередній пропуск"/>
+                    <Item id="23244" name="Десятковий роздільник"/>
+                    <Item id="23245" name="Точка"/>
+                    <Item id="23246" name="Кома"/>
+                    <Item id="23247" name="Обоє"/>
+                    <Item id="23230" name="Префікс 1:"/>
+                    <Item id="23232" name="Префікс 2:"/>
+                    <Item id="23234" name="Экстрас 1:"/>
+                    <Item id="23236" name="Экстрас 2:"/>
+                    <Item id="23238" name="Суфікс 1:"/>
+                    <Item id="23240" name="Суфікс 2:"/>
+                    <Item id="23242" name="Діапазон: "/>
+                    <Item id="23301" name="Коментар Рядка"/>
+                    <Item id="23101" name="Коментар Блоку"/>
+                    <Item id="23001" name="Дозволити сверт. коментаря"/>
+                    <Item id="23002" name="Провідний рядок коментарів на початку рядка"/>
+                    <Item id="23326" name="Стиль"/>
+                    <Item id="23323" name="Відкриття"/>
+                    <Item id="23324" name="Символ продовження"/>
+                    <Item id="23325" name="Закриття"/>
+                    <Item id="23124" name="Стиль"/>
+                    <Item id="23122" name="Відкриття"/>
+                    <Item id="23123" name="Закриття"/>
+                    <Item id="23220" name="Стиль"/>
+                    <Item id="23201" name="Числа"/>
+                </Comment>
+                <Operator title="Оператори і роздільники">
+                    <Item id="24113" name="Стиль"/>
+                    <Item id="24116" name="Оператори 1"/>
+                    <Item id="24117" name="Обпер. 2 (треб. розділ.)"/>
+                    <Item id="24223" name="Стиль"/>
+                    <Item id="24220" name="Відкриття: "/>
+                    <Item id="24221" name="Екранування: "/>
+                    <Item id="24222" name="Закриття: "/>
+                    <Item id="24323" name="Стиль"/>
+                    <Item id="24320" name="Відкриття: "/>
+                    <Item id="24321" name="Екранування: "/>
+                    <Item id="24322" name="Закриття: "/>
+                    <Item id="24423" name="Стиль"/>
+                    <Item id="24420" name="Відкриття: "/>
+                    <Item id="24421" name="Екранування: "/>
+                    <Item id="24422" name="Закриття: "/>
+                    <Item id="24473" name="Стиль"/>
+                    <Item id="24470" name="Відкриття: "/>
+                    <Item id="24471" name="Екранування: "/>
+                    <Item id="24472" name="Закриття: "/>
+                    <Item id="24523" name="Стиль"/>
+                    <Item id="24520" name="Відкриття: "/>
+                    <Item id="24521" name="Екранування: "/>
+                    <Item id="24522" name="Закриття: "/>
+                    <Item id="24573" name="Стиль"/>
+                    <Item id="24570" name="Відкриття: "/>
+                    <Item id="24571" name="Екранування: "/>
+                    <Item id="24572" name="Закриття: "/>
+                    <Item id="24623" name="Стиль"/>
+                    <Item id="24620" name="Відкриття: "/>
+                    <Item id="24621" name="Екранування: "/>
+                    <Item id="24622" name="Закриття: "/>
+                    <Item id="24673" name="Стиль"/>
+                    <Item id="24670" name="Відкриття: "/>
+                    <Item id="24671" name="Екранування: "/>
+                    <Item id="24672" name="Закриття: "/>
+                    <Item id="24401" name="Роздільник 3"/>
+                    <Item id="24451" name="Роздільник 4"/>
+                    <Item id="24501" name="Роздільник 5"/>
+                    <Item id="24551" name="Роздільник 6"/>
+                    <Item id="24601" name="Роздільник 7"/>
+                    <Item id="24651" name="Роздільник 8"/>
+                    <Item id="24101" name="Активні оператори"/>
+                    <Item id="24201" name="Роздільник 1"/>
+                    <Item id="24301" name="Роздільник 2"/>
+                </Operator>
+                <Item id="24001" name="Увімкнути знак переходу :"/>
+            </UserDefine>
+            <Preference title = "Налаштування">
+                <Item id="6001" name="Закрити"/>
+                <Global title = "Загальні">
+                    <Item id="6101" name="Панель Інструментів"/>
+                    <Item id="6102" name="Приховати"/>
+                    <Item id="6103" name="Дрібні іконки"/>
+                    <Item id="6104" name="Великі іконки"/>
+                    <Item id="6105" name="Стандартні іконки"/>
+                    <Item id="6106" name="Панель Вкладок"/>
+                    <Item id="6107" name="Зменшений розмір"/>
+                    <Item id="6108" name="Заборонити перетягування"/>
+                    <Item id="6109" name="Неактивні вкладки сірого кольору"/>
+                    <Item id="6110" name="Помаранчева лінія над вкладкою"/>
+                    <Item id="6111" name="Відображати Рядок Стану"/>
+                    <Item id="6112" name="Кнопка закриття на вкладці"/>
+                    <Item id="6113" name="Закривати подвійним клацанням"/>
+                    <Item id="6118" name="Приховати"/>
+                    <Item id="6119" name="Каскадне відображення"/>
+                    <Item id="6120" name="Вертикально з лівого боку"/>
+                    <Item id="6121" name="Панель Меню"/>
+                    <Item id="6122" name="Приховати (Alt або F10 для вибору)"/>
+                    <Item id="6123" name="Мова інтерфейсу"/>
+                    <Item id="6125" name="Список Документів"/>
+                    <Item id="6126" name="Відображати"/>
+					<Item id="6127" name="Відімкнути колонку розширення"/>
+                </Global>
+                <Scintillas title = "Правка">
+                    <Item id="6201" name="Оформлення Текст-блока"/>
+                    <Item id="6202" name="Звичайне"/>
+                    <Item id="6203" name="Стрілки"/>
+                    <Item id="6204" name="Гуртки"/>
+                    <Item id="6205" name="Квадратики"/>
+                    <Item id="6206" name="Відображати Нумерацію Рядків"/>
+                    <Item id="6207" name="Відображати поле Закладок"/>
+                    <Item id="6208" name="Відображати межу"/>
+                    <Item id="6209" name="Стовпець: "/>
+                    <Item id="6211" name="Настр. Вертикальної Межі Справа"/>
+                    <Item id="6212" name="Лінія"/>
+                    <Item id="6213" name="Фон Тексту"/>
+                    <Item id="6214" name="Підсвічування поточного рядка"/>
+                    <Item id="6216" name="Текстовий Курсор"/>
+                    <Item id="6217" name="Ширина"/>
+                    <Item id="6219" name="Частий. мерц.:"/>
+                    <Item id="6221" name="Ч"/>
+                    <Item id="6222" name="Р"/>
+                    <Item id="6224" name="Мультиредактирование"/>
+                    <Item id="6225" name="Вкл. (Ctrl + Клацання миші/вибір)"/>
+                    <Item id="6226" name="Вимкнене"/>
+                    <Item id="6227" name="Стиль Перенесення Рядків"/>
+                    <Item id="6228" name="Стандартний"/>
+                    <Item id="6229" name="Вирівняний"/>
+                    <Item id="6230" name="З відступом"/>
+                    <Item id="6231" name="Розмір Рамки Вікна"/>
+					<Item id="6234" name="Відімк. розшир. функції прокрутки"/>
+                </Scintillas>
+                <NewDoc title = "Новий Документ">
+                    <Item id="6401" name="Формат"/>
+                    <Item id="6402" name="Windows"/>
+                    <Item id="6403" name="Unix"/>
+                    <Item id="6404" name="Mac"/>
+                    <Item id="6405" name="Кодування"/>
+                    <Item id="6406" name="ANSI"/>
+                    <Item id="6407" name="UTF - 8 без мітки BOM"/>
+                    <Item id="6408" name="UTF-8"/>
+                    <Item id="6409" name="UCS 2 Big Endian"/>
+                    <Item id="6410" name="UCS 2 Small Endian"/>
+                    <Item id="6411" name="Синтаксис за умовч.:"/>
+                    <Item id="6419" name="Новий Документ"/>
+                    <Item id="6420" name="Застосувати при откр. ANSI файлу"/>
+                    <Item id="-1"     name="Відображення"/>
+                </NewDoc>
+                <DefaultDir title="Шлях За умовчанням">
+                    <Item id="6413" name="Директорія За умовчанням (Відкрити/Зберегти)"/>
+                    <Item id="6414" name="Пройти за поточним документом"/>
+                    <Item id="6415" name="Запам'ятати останню директорію"/>
+                </DefaultDir>
+
+                <FileAssoc title = "Асоціація Файлів">
+                    <Item id="4009" name="Підтримувані:"/>
+                    <Item id="4010" name="Зареєстровані:"/>
+                </FileAssoc>
+                <LangMenu title = "Меню Синтаксису">
+                    <Item id="6505" name="Доступні мови"/>
+                    <Item id="6506" name="Відключені"/>
+                    <Item id="6507" name="Компактне меню Синтаксисів"/>
+                    <Item id="6508" name="Меню Синтаксисів"/>
+                </LangMenu>
+                <TabSettings title="Налаштування Табуляції">
+                    <Item id="6301" name="Налаштування Табуляції"/>
+                    <Item id="6302" name="Замінити пропуском"/>
+                    <Item id="6303" name="Розмір табуляції :"/>
+                    <Item id="6510" name="Исп. значення по умолч" />
+                </TabSettings>
+                <Print title = "Друк">
+                    <Item id="6601" name="Друкувати номери рядків"/>
+                    <Item id="6602" name="Колірна схема"/>
+                    <Item id="6603" name="Як є"/>
+                    <Item id="6604" name="Обернути"/>
+                    <Item id="6605" name="Чорним по білому"/>
+                    <Item id="6606" name="Без фонового кольору"/>
+                    <Item id="6607" name="Відступи (У міліметрах)"/>
+                    <Item id="6612" name="Ліворуч"/>
+                    <Item id="6613" name="Згори"/>
+                    <Item id="6614" name="Справа"/>
+                    <Item id="6615" name="Знизу"/>
+                    <Item id="6706" name="Напівжирний"/>
+                    <Item id="6707" name="Курсив"/>
+                    <Item id="6708" name="Верхній колонтитул"/>
+                    <Item id="6709" name="Ліва частина"/>
+                    <Item id="6710" name="Середня частина"/>
+                    <Item id="6711" name="Права частина"/>
+                    <Item id="6717" name="Напівжирний"/>
+                    <Item id="6718" name="Курсив"/>
+                    <Item id="6719" name="Нижній колонтитул"/>
+                    <Item id="6720" name="Ліва частина"/>
+                    <Item id="6721" name="Середня частина"/>
+                    <Item id="6722" name="Права частина"/>
+                    <Item id="6723" name="Додати"/>
+                    <Item id="6725" name="Переменная:"/>
+                    <Item id="6727" name="Яка частина."/>
+                    <Item id="6728" name="Колонтитули"/>
+                </Print>
+                <RecentFilesHistory title="Історія Відкриття">
+                    <Item id="6304" name="Історія Останніх Файлів"/>
+                    <Item id="6305" name="Не перевіряти при запуску"/>
+                    <Item id="6306" name="Запам'ятовуватиостанні :"/>
+					
+                    <Item id="6429" name="Відображення"/>
+                    <Item id="6424" name="В підміню"/>
+                    <Item id="6425" name="Тільки Ім'я файлу"/>
+                    <Item id="6426" name="Повний Шлях до файлу"/>
+                    <Item id="6427" name="Задати макс. довжину :"/>
+                </RecentFilesHistory>
+                <MISC title = "Різне">
+                    <Item id="6307" name="Увімкнути"/>
+                    <Item id="6308" name="Згортати в трей"/>
+                    <Item id="6309" name="Відкривати незакриті файли з минулого сеансу"/>
+                    <Item id="6312" name="Виявлення зміни файлу  (ззовні)"/>
+                    <Item id="6313" name="Оновлювати не запитуючи"/>
+                    <Item id="6318" name="Обробка  Веб-ссылок"/>
+                    <Item id="6325" name="До останнього рядка потім обновл" />
+                    <Item id="6319" name="Увімкнути"/>
+                    <Item id="6320" name="Не підкреслювати"/>
+                    <Item id="6322" name="Розширення файлу сесії :"/>
+                    <Item id="6323" name="Увімкнути автоматичне оновлення"/>
+                    <Item id="6324" name="Перемикання Документів  (Ctrl+TAB)"/>
+                    <Item id="6326" name="Увімкнути"/>
+                    <Item id="6327" name="Дозволити"/>
+                    <Item id="6328" name="Підсвічування атрибутів тега"/>
+                    <Item id="6329" name="Підсвічування парних тегів"/>
+                    <Item id="6330" name="Підсвічування зон :  comment/php/asp"/>
+                    <Item id="6331" name="Відображати в заголовку тільки ім'я файлу"/>
+                    <Item id="6114" name="Відобр. список"/>
+                    <Item id="6115" name="Повторювати відступ попереднього рядка"/>
+                    <Item id="6117" name="Збудувати список у міру использ" />
+					<Item id="6334" name="Авто-визначення кодування символів"/>
+                    <Item id="6332" name="Враховувати регістр слів"/>
+                    <Item id="6333" name="Підсвічування співпадаючих слів"/>
+                    <Item id="6335" name="Зворотний слэш це escape символ для SQL"/>
+                </MISC>
+				<MultiInstance title = "Мульти-екземпляр">
+					<Item id = "6151" name = "Налаштування Мульти-екземпляра"/>
+					<Item id = "6152" name = "Відкривати сесії в новому екземплярі Notepad++"/>
+					<Item id = "6153" name = "Завжди у мульти-екземплярному режимі"/>
+					<Item id = "6154" name = "За умовчанням (моно-екземпляр)"/>
+					<Item id = "6155" name = "* Зміни набудуть чинності після перезапуску Notepad++"/>
+				</MultiInstance>
+				<Delimiter title = "Роздільник">
+					<Item id = "6251" name = "Параметри роздільника (Ctrl + 2 клацання Миші)"/>
+					<Item id = "6252" name = "Відкриття"/>
+					<Item id = "6255" name = "Закриття"/>
+					<Item id = "6256" name = "Дозволити захоплення декількох рядків"/>
+					<Item id = "6257" name = "Бла бла бла бла бла бла"/>
+					<Item id = "6258" name = "Бла бла бла бла бла бла бла бла бла бла бла бла"/>
+				</Delimiter>
+                 <Cloud title="Хмарне Зберігання">
+                    <Item id="6262" name="Налаштування на Хмару"/>
+                    <Item id="6263" name="Без Хмари"/>
+                    <Item id="6264" name="Dropbox"/>
+                    <Item id="6265" name="OneDrive"/>
+                    <Item id="6266" name="Google Drive"/>
+                    <!--Item id="6261" name="Please restart Notepad++ to take effect" /-->
+                </Cloud>
+                <Backup title = "Резерв. Копіювання">
+                    <Item id="6801" name="Резервне Копіювання (при збереженні)"/>
+					<Item id="6817" name="Знімок сесії і періодичне резервне копіювання"/>
+					<Item id="6309" name="Запам'ятовувати поточну сесію для наступного запуску"/>
+					<Item id="6818" name="Увімкнути знімок сесії і періодичне резервне копіювання"/>
+					<Item id="6821" name="секунд"/>
+                    <Item id="6315" name="Відключене"/>
+                    <Item id="6316" name="Звичайне (перезапис .bak)"/>
+                    <Item id="6317" name="Кожне сохр. окремо"/>
+                    <Item id="6804" name="Польз. Директорія Копіювання"/>
+                    <Item id="6803" name="Директ.:"/>
+					<Item id="6819" name="Копія кожні"/>
+					<Item id="6822" name="Шлях копії :"/>
+                </Backup>
+                <AutoCompletion title="Автозавершення">
+                    <Item id="6807" name="Автозавершення"/>
+                    <Item id="6808" name="Увімкнути при кожному введенні"/>
+                    <Item id="6809" name="Завершення функцій"/>
+                    <Item id="6810" name="Завершення слів"/>
+                    <Item id="6811" name="починаючи з"/>
+                    <Item id="6813" name="- го символу"/>
+                    <Item id="6814" name="Допустимі значення: 1-9"/>
+                    <Item id="6815" name="Підказка при введенні параметрів функцій"/>
+					<Item id="6816" name="Завершення функцій і слів"/>
+                    <Item id="6851" name="Автовставка"/>
+					<Item id="6857" name=" html/xml закр. тег"/>
+					<Item id="6858" name="Откр" />
+					<Item id="6859" name="Закр" />
+					<Item id="6860" name="Замовлена пара 1:"/>
+					<Item id="6863" name="Замовлена пара 2:"/>
+					<Item id="6866" name="Замовлена пара 3:"/>
+                </AutoCompletion>
+            </Preference>
+                <MultiMacro title = "Запустити багатократно...">
+                <Item id="1"      name="Запуск"/>
+                <Item id="2"      name="Відміна"/>
+                <Item id="8006" name="Макрос:"/>
+                <Item id="8001" name="Запуск"/>
+                <Item id="8005" name="разів"/>
+                <Item id="8002" name="Виконувати до кінця файлу"/>
+            </MultiMacro>
+                <Window title = "Вікна">
+                <Item id="1"      name="Відкрити"/>
+                <Item id="2"      name="ОК"/>
+                <Item id="7002" name="Зберегти"/>
+                <Item id="7003" name="Закрити Вікно(а)"/>
+                <Item id="7004" name="Упорядкувати"/>
+            </Window>
+                <ColumnEditor title = "Генератор стовпця">
+                <Item id="2023" name="Текст для вставки"/>
+                <Item id="2033" name="Числа для вставки"/>
+                <Item id="2030" name="Початкове число:"/>
+                <Item id="2031" name="Збільшення на:"/>
+                <Item id="2035" name="Добав. 0 ліворуч"/>
+                <Item id="2032" name="Формат"/>
+                <Item id="2024" name="Десятич..." />
+                <Item id="2025" name="Восьм..." />
+                <Item id="2026" name="Шіснад..." />
+                <Item id="2027" name="Двоїч..." />
+                <Item id="1"     name="ОК"/>
+                <Item id="2"     name="Відміна"/>
+            </ColumnEditor>
+            <FindCharsInRange title = "Знайти символи в діапазоні...">
+                <Item id="2910" name="Знайти"/>
+                <Item id="2"      name="Закрити"/>
+                <Item id="2901" name="Не-ASCII символи (128-255)"/>
+                <Item id="2902" name="ASCII символи (0-127)"/>
+                <Item id="2903" name="Мій діапазон:"/>
+                <Item id="2906" name="Вгору"/>
+                <Item id="2907" name="Вниз"/>
+                <Item id="2908" name="Напрямок"/>
+                <Item id="2909" name="Зациклити пошук"/>
+            </FindCharsInRange>
+        </Dialog>
+        <MessageBox>
+            <ContextMenuXmlEditWarning title="Редагування contextMenu" message="Редагування contextMenu.xml дозволяє налаштувати своє спливаюче контекстне меню в Notepad++.&#x0A;Ви повинні перезапустити Notepad++, щоб зміни набули чинності" />
+            <NppHelpAbsentWarning title="Файлу не існує" message="&#x0A;не існує. Будь ласка, завантажите його з сайту Notepad++"/>
+            <SaveCurrentModifWarning title="Збереження поточних змін" message="Ви повинні зберегти поточні зміни.&#x0A;Усі збережені зміни не зможуть бути відмінені.&#x0A;&#x0A;Продовжити?"/>
+            <LoseUndoAbilityWarning title="Втрата можливості відкату" message="Ви повинні зберегти поточні зміни.&#x0A;Усі збережені зміни не зможуть бути відмінені.&#x0A;&#x0A;Продовжити?"/>
+            <CannotMoveDoc title="Перехід до нового екземпляра Notepad++" message="Документ був змінений, збережете його і спробуйте ще раз" />
+            <DocReloadWarning title="Перезавантаження" message="Усі внесені зміни будуть втрачені!&#x0A;Продовжити?"/>
+            <FileLockedWarning title="Збереження не вдалося" message="Будь ласка, перевірте чи відкритий цей файл в іншому застосуванні" />
+            <FileAlreadyOpenedInNpp title="" message="Файл вже відкритий в Notepad++"/>
+            <DeleteFileFailed title="Видалення файлу" message="Не вдалося видалити файл"/>
+            
+            <!-- $INT_REPLACE$ is a place holder, don't translate it -->
+            <NbFileToOpenImportantWarning title="Дуже велика кількість файлів" message="$INT_REPLACE$ файлів скоро будуть відкриті.&#x0A;Продовжити?"/>
+		</MessageBox>
+        <ClipboardHistory>
+			<PanelTitle name="Історія Буфера"/>
+        </ClipboardHistory>
+        <DocSwitcher>
+			<PanelTitle name="Зміна Документу"/>
+			<ColumnName name="Ім'я"/>
+			<ColumnExt name="Розш." />
+        </DocSwitcher>
+        <AsciiInsertion>
+			<PanelTitle name="Таблиця  ASCII символів"/>
+			<ColumnVal name="Значення"/>
+			<ColumnChar name="Символ"/>
+        </AsciiInsertion>
+        <DocumentMap>
+			<PanelTitle name="Карта Документу"/>
+        </DocumentMap>
+        <FunctionList>
+			<PanelTitle name="Список функцій"/>
+			<SortTip name="Упорядкувати" />
+			<ReloadTip name="Відновити" />
+        </FunctionList>
+		<ProjectManager>
+            <PanelTitle name="Проект"/>
+            <WorkspaceRootName name="Робоча область"/>
+            <NewProjectName name="Ім'я проекта"/>
+            <NewFolderName name="Ім'я теки"/>
+            <Menus>
+				<Entries>
+					<Item id="0" name="Проект"/>
+					<Item id="1" name="Правка"/>
+				</Entries>
+				<WorkspaceMenu>
+					<Item id="3122" name="Новий проект"/>
+					<Item id="3123" name="Відкрити проект"/>
+					<Item id="3124" name="Перезавантажити проект"/>
+					<Item id="3125" name="Зберегти"/>
+					<Item id="3126" name="Зберегти як..."/>
+					<Item id="3127" name="Зберегти копію як..."/>
+					<Item id="3121" name="Додати Новий проект"/>
+				</WorkspaceMenu>
+				<ProjectMenu>
+					<Item id="3111" name="Перейменувати"/>
+					<Item id="3112" name="Додати теку"/>
+					<Item id="3113" name="Додати файли..."/>
+					<Item id="3117" name="Додати файли з директорії..."/>
+					<Item id="3114" name="Видалити"/>
+					<Item id="3118" name="Перемістити вгору"/>
+					<Item id="3119" name="Перемістити вниз"/>
+				</ProjectMenu>
+				<FolderMenu>
+					<Item id="3111" name="Перейменувати"/>
+					<Item id="3112" name="Додати теку"/>
+					<Item id="3113" name="Додати файли."/>
+					<Item id="3117" name="Додати файли з директорії."/>
+					<Item id="3114" name="Видалити"/>
+					<Item id="3118" name="Перемістити вгору"/>
+					<Item id="3119" name="Перемістити вниз"/>
+				</FolderMenu>
+				<FileMenu>
+					<Item id="3111" name="Перейменувати"/>
+					<Item id="3115" name="Видалити"/>
+					<Item id="3116" name="Змінити Шлях Файлу"/>
+					<Item id="3118" name="Перемістити вгору"/>
+					<Item id="3119" name="Перемістити вниз"/>
+				</FileMenu>
+			</Menus>
+		</ProjectManager>
+    </Native-Langue>
+</NotepadPlus>
